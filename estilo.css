@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4e4e52;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header img {
+    max-width: 200px;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #2c3a4e;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.proximo-jogo {
+    background-color: #2c3a4e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.proximo-jogo h2 {
+    margin-bottom: 10px;
+}
+
+.proximo-jogo img {
+    max-width: 200px;
+    margin: 0 20px;
+}
+
+.fotos {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.fotos img {
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #2c3a4e;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+footer p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+footer .redes-sociais{
+    background-color: rgb(255, 255, 255);
+}
+footer h3{
+    color: rgb(255, 255, 255);
+}
+.redes-sociais img {
+    max-width: 100px;
+    margin: 0 10px;
+    justify-content: center;
+    
+}
+
+.patrocinadores img {
+    width: 600px;
+    margin: 10px;
+}
+
